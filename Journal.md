@@ -22,14 +22,17 @@ Learn to use def, fill, print, set up background, size, generate random color, x
 import time
 
 def setup():
+
     size(1000,1000)
     background(255)
     textAlign(CENTER, CENTER)
 
 def draw():
+
     print("")
     
 def mouseClicked():
+
     x= mouseX
     y= mouseY
     z= random(10,100)
