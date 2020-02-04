@@ -46,7 +46,7 @@ def mouseClicked():
     fill(0)
     textSize(z/3);
     text ("Kien", x, y)
-    print(x, y)
+    print(x, y)     
 
 
 2.What did you learn? I that in Python, if I want "something1" to be infront of "something2", I need to code that "something" infront of "something2"
