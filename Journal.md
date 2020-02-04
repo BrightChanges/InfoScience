@@ -19,33 +19,33 @@ Installed Python
 Learn to use def, fill, print, set up background, size, generate random color, x and y coordinates, mouseClicked.
 
 ##Coding of today##( generate a program that generate random color, random size circle each time I click into the window)
-import time
+ 
+```.py
+    def setup():
+        size(1000,1000)
+        background(255)
+        textAlign(CENTER, CENTER)
 
-def setup():
-    size(1000,1000)
-    background(255)
-    textAlign(CENTER, CENTER)
+    def draw():
+        print("")
 
-def draw():
-    print("")
-    
-def mouseClicked():
-    x= mouseX
-    y= mouseY
-    z= random(10,100)
-    r= random(0,255)
-    g= random(0,255)
-    b= random(0,255)
-    fill(r, g, b)
+    def mouseClicked():
+        x= mouseX
+        y= mouseY
+        z= random(10,100)
+        r= random(0,255)
+        g= random(0,255)
+        b= random(0,255)
+        fill(r, g, b)
 
-    print(x)
-    circle(x, y, z)
-    fill(0)
-    textSize(z/3);
-    text ("Kien", x, y)
-    print(x, y)
-    line(500,500,x,y)   
-
+        print(x)
+        circle(x, y, z)
+        fill(0)
+        textSize(z/3);
+        text ("Kien", x, y)
+        print(x, y)
+        line(500,500,x,y)
+ ```
 2.What did you learn? I that in Python, if I want "something1" to be infront of "something2", I need to code that "something" infront of "something2"
 
 3.Question I have:
