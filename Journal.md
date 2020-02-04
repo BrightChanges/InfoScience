@@ -22,17 +22,14 @@ Learn to use def, fill, print, set up background, size, generate random color, x
 import time
 
 def setup():
-
     size(1000,1000)
     background(255)
     textAlign(CENTER, CENTER)
 
 def draw():
-
     print("")
     
 def mouseClicked():
-
     x= mouseX
     y= mouseY
     z= random(10,100)
@@ -46,8 +43,8 @@ def mouseClicked():
     fill(0)
     textSize(z/3);
     text ("Kien", x, y)
-    print(x, y)     
-
+    print(x, y)
+    line(500,500,x,y)   
 
 2.What did you learn? I that in Python, if I want "something1" to be infront of "something2", I need to code that "something" infront of "something2"
 
