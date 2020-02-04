@@ -1,5 +1,3 @@
-import time
-
 def setup():
     size(1000,1000)
     background(255)
@@ -17,7 +15,6 @@ def mouseClicked():
     b= random(0,255)
     fill(r, g, b)
 
-    print(x)
     circle(x, y, z)
     fill(0)
     textSize(z/3);
