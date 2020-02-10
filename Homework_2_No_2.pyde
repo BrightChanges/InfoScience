@@ -11,11 +11,11 @@ def draw():
     print("")
     
 def mouseClicked():
-    global x2, y2, x, y
-    x2=x
-    y2=y
+    global x2, y2
     x= mouseX
     y= mouseY
+    
+    
     z= random(10,100)
     r= random(0,255)
     g= random(0,255)
@@ -26,7 +26,9 @@ def mouseClicked():
     fill(0)
     textSize(z/3);
     text ("Kien", x, y)
-
+    
+    x2=x
+    y2=y
 
     
     
