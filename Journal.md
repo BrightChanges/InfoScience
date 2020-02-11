@@ -13,6 +13,10 @@ I learned that to make a robot to do something, like making a jelly bread, I can
 
 
 
+
+
+
+
 CLASS NO.2:
 
 1.What did we do? 
@@ -55,6 +59,12 @@ Learn to use def, fill, print, set up background, size, generate random color, x
 4.##Homework##:
 1.Add lines from the middle of the window to each circle
 2.Add lines from circle to circle
+
+
+
+
+
+
 
 
 
