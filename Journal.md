@@ -1,6 +1,7 @@
 #This is my journal
 
-Class No.1:
+CLASS NO.1:
+
 1.What did we do?
 We work as a team of 3 to write the commands for a robot to make a jelly bread using the jelly jars, the knife, cooking paper's bag and the bag of bread.
 
@@ -12,7 +13,8 @@ I learned that to make a robot to do something, like making a jelly bread, I can
 
 
 
-Class No.2:
+CLASS NO.2:
+
 1.What did we do? 
 Installed Python
 
@@ -56,7 +58,8 @@ Learn to use def, fill, print, set up background, size, generate random color, x
 
 
 
-Class No.3: 
+CLASS NO.3: 
+
 1.What did we do? 
 Creating a dice that give us random value each time we click
 2.What did you learn?
