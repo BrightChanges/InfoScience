@@ -1,4 +1,4 @@
-#This is my journal
+$$$This is my journal$$$
 
 CLASS NO.1:
 
