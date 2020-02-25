@@ -57,8 +57,10 @@ Learn to use def, fill, print, set up background, size, generate random color, x
 3.Question I have: No questions
 
 4.##Homework##:
-1.Add lines from the middle of the window to each circle
-2.Add lines from circle to circle
+1.Add lines from the middle of the window to each circle: https://github.com/BrightChanges/InfoScience/blob/master/Homework_2_No_1.pyde
+2.Add lines from circle to circle:
+https://github.com/BrightChanges/InfoScience/blob/master/Homework_2_No_2.pyde
+
 
 
 
@@ -294,4 +296,63 @@ def clear():
 3.Question I have: No questions
 
 
+
+
+
+
+CLASS NO.6
+1.What did we do? 
+We created an optical illusion when we click on it. 
+2.What did you learn?
+I learned how to make a repeating command "for n in range():" , and making difference's command "offset". Also, I strengthen my skill of using variables to not write codes manytimes.
+
+##Coding of today##
+offset=50
+def setup():
+
+    size(500,500)
+    background(255)
+
+def draw():
+
+    stroke(0)
+    line(0,0,500,0) #Line
+    y=0
+    for n in range(10):
+        line(0,y,500,y)
+        y=y+50
+        
+    fill(3,0,0)  #First round's first black square
+    stroke(255)
+#odd rows
+
+    d=0
+    for n in range(5):
+        c=0
+        for n in range(5):
+            square(c,d,50)
+            c=c+100
+        d=d+100
+
+        
+#even rows  
+
+    d=50
+    global offset
+    for n in range(5):
+        c= 0+ offset
+        for n in range(5):
+            square(c,d,50)
+            c=c+100
+        d=d+100
+        
+def mouseClicked():
+
+    global offset
+    offset=offset+1
+    
+3.Question I have: I want to learn what is the difference between stroke and strokeWeight.
+4.##Homework##:
+-Create another optical illusion:
+"How many white dots do you see?": https://github.com/BrightChanges/InfoScience/blob/master/Optical_Illusion_H_W.pyde
 
