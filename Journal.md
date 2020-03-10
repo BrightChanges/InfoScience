@@ -391,7 +391,7 @@ def setup():
         stroke(30,30,30)
         fill(random(50, 255), random(50, 255), random(200, 255))
         circle(center_x-25,center_y-25,cs)
-Product: ![](images/filename/Generative%20%Art.png)
+Product: https://github.com/BrightChanges/InfoScience_Kien-Le-Trung/blob/master/Generative%20Art.png
         
 2. Create a game board with 2D array
 Code:
@@ -402,9 +402,11 @@ grid[7][7] = -1
 w=70
 
 def setup():
+
     size(800,600)
     
 def draw():
+
     x,y= 0,0
     for row in grid:
         for col in row:
@@ -420,8 +422,7 @@ def draw():
 def mousePressed():
     grid[mouseY/w][mouseX/w] = grid[mouseY/w][mouseX/w]*-1
   
-Product:
-![](images/files/Screen%20%Shot%20%0002-03-10%20%at%20%5.17.49%20%PM.png)
+Product:https://github.com/BrightChanges/InfoScience_Kien-Le-Trung/blob/master/Screen%20Shot%200002-03-10%20at%205.17.49%20PM.png
 
 
 
