@@ -359,7 +359,78 @@ def mouseClicked():
 
 
 
-CLASS NO.7
+
+
+
+
+
+ClASS NO.7
+No class but has 2 H.W:
+1. Create an generative art:
+Code:
+def setup():
+
+    size(1000, 1000)
+    background(255, 255, 255)
+    
+
+    noStroke()
+
+    
+    for c in range(1000):
+        center_x= random(200, 800)
+        center_y= random(200, 800)
+        cs=50
+        #Draw Shadow
+        noStroke()
+        fill(15,15,15,10)
+        for i in range(30):
+            circle(center_x,center_y,cs-i*5)
+     
+    #Draw Circle
+        stroke(30,30,30)
+        fill(random(50, 255), random(50, 255), random(200, 255))
+        circle(center_x-25,center_y-25,cs)
+Product: ![](images/filename/Generative%20%Art.png)
+        
+2. Create a game board with 2D array
+Code:
+grid = [ [1]*8 for n in range(8)]
+grid[0][0] = -1
+grid[7][7] = -1
+
+w=70
+
+def setup():
+    size(800,600)
+    
+def draw():
+    x,y= 0,0
+    for row in grid:
+        for col in row:
+            if col == -1:
+               fill(255,0,0)
+            else:
+                fill(255)
+            rect(x,y,w,w)
+            x=x+w
+        y=y+w
+        x=0
+        
+def mousePressed():
+    grid[mouseY/w][mouseX/w] = grid[mouseY/w][mouseX/w]*-1
+  
+Product:
+![](images/files/Screen%20%Shot%20%0002-03-10%20%at%20%5.17.49%20%PM.png)
+
+
+
+
+
+
+
+
+CLASS NO.8
 1.What did we do? 
 We started learning how to code Arduino
 2.What did you learn?
