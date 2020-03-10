@@ -356,3 +356,43 @@ def mouseClicked():
 -Create another optical illusion:
 "How many white dots do you see?": https://github.com/BrightChanges/InfoScience/blob/master/Optical_Illusion_H_W.pyde
 
+
+
+
+CLASS NO.7
+1.What did we do? 
+We started learning how to code Arduino
+2.What did you learn?
+I learnt how to connect the LED bulbs to a breadboard, a battery,and an Arduino. I also learnt how to write some simple codes to make the LED bulbs blink.
+##Coding of today##
+void setup()
+{
+  pinMode(13, OUTPUT);
+  pinMode(12, OUTPUT);
+  pinMode(11, OUTPUT);
+  pinMode(10, OUTPUT);
+}
+
+void loop()
+{
+  digitalWrite(13, HIGH);
+  delay(1000); // Wait for 1000 millisecond(s)
+  digitalWrite(13, LOW);
+  delay(1000); // Wait for 1000 millisecond(s)
+  digitalWrite(12, HIGH);
+  delay(1000); // Wait for 1000 millisecond(s)
+  digitalWrite(12, LOW);
+  delay(1000); // Wait for 1000 millisecond(s)
+  digitalWrite(11, HIGH);
+  delay(1000); // Wait for 1000 millisecond(s)
+  digitalWrite(11, LOW);
+  delay(1000); // Wait for 1000 millisecond(s)
+  digitalWrite(10, HIGH);
+  delay(1000); // Wait for 1000 millisecond(s)
+  digitalWrite(10, LOW);
+  delay(1000); // Wait for 1000 millisecond(s)
+}
+3.Questions I have: No question.
+
+
+
