@@ -473,8 +473,9 @@ We created simulation that shows people movings around. In the future, we will s
 
 2.What did you learn?
 I learnt how to add values to a list and strengthened my understanding in random, for loop, global, and variable assignments.
-##Coding of today##
+##Homework's coding for the 2 tasks##
 
+#Task 2(creating 10 individuals moving around in random positions)(Task 2's code includes Task 1's code):
     x= [ ]
     y= [ ]
 
@@ -499,8 +500,11 @@ I learnt how to add values to a list and strengthened my understanding in random
             x[individuals]= x[individuals] + random(-10,10)
             y[individuals]= y[individuals] + random(-10,10)
 
-            if x[individuals] > 500:
+
+            if x[individuals] > 500: 
                     x = 500
+                    
+#Task 1(3 additional conditions):
 
             if y[individuals] > 500:
                         y = 500
