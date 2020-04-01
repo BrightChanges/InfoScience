@@ -514,7 +514,7 @@ I learnt how to add values to a list and strengthened my understanding in random
                         y = 500
 
             delay(100)
- Outcome: Screen Shot 0002-04-01 at 6.29.37 PM.png           
+ Outcome: https://github.com/BrightChanges/InfoScience_Kien-Le-Trung/blob/master/Screen%20Shot%200002-04-01%20at%206.29.37%20PM.png       
  3.Questions I have: I had a lot of questions(mostly about errors) but I had asked Dr.Ruben and he had help me.
 
 
