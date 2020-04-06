@@ -23,17 +23,18 @@ def draw():
         y[individuals]= y[individuals] + random(-10,10)
         
         if x[individuals] > 500:
-                x = 500
+                x[individuals] = 500
     
         if y[individuals] > 500:
-                    y = 500
+                    y[individuals] = 500
         if x[individuals] < 0:
-                    x = 500
+                    x[individuals] = 0
         if y[individuals] < 0:
-                    y = 500
+                    y[individuals] = 0
             
         delay(100)
 
+    
     
     
 
