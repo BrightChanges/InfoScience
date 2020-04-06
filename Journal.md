@@ -476,19 +476,20 @@ I learnt how to add values to a list and strengthened my understanding in random
 ##Homework's coding for the 2 tasks##
 
 #Task 2(creating 10 individuals moving around in random positions)(Task 2's code includes Task 1's code):
-    x= [ ]
-    y= [ ]
 
-    def setup():
-        global x, y
-        size(500,500)
+     x= [ ]
+     y= [ ]
 
-        #Setting up the 10 random coordinates
-        for i in range(10):
-            x.append(random(50,450))
-            y.append(random(50,450))
+     def setup():
+         global x, y
+         size(500,500)
 
-
+    #Setting up the 10 random coordinates
+    for i in range(10):
+        x.append(random(50,450))
+        y.append(random(50,450))
+            
+                 
 
     def draw():
         global x, y
@@ -499,19 +500,20 @@ I learnt how to add values to a list and strengthened my understanding in random
             circle(x[individuals], y[individuals], 40)
             x[individuals]= x[individuals] + random(-10,10)
             y[individuals]= y[individuals] + random(-10,10)
+        
+        if x[individuals] > 500:
+                x[individuals] = 500
+    
+ #Task 1(3 additional conditions):
 
-
-            if x[individuals] > 500: 
-                    x = 500
-                    
-#Task 1(3 additional conditions):
-
-            if y[individuals] > 500:
-                        y = 500
-            if x[individuals] < 0:
-                        x = 500
-            if y[individuals] < 0:
-                        y = 500
+           if y[individuals] > 500:
+                    y[individuals] = 500
+        if x[individuals] < 0:
+                    x[individuals] = 0
+        if y[individuals] < 0:
+                    y[individuals] = 0
+            
+        delay(100)
 
             delay(100)
  Outcome: https://github.com/BrightChanges/InfoScience_Kien-Le-Trung/blob/master/Screen%20Shot%200002-04-01%20at%206.29.37%20PM.png       
