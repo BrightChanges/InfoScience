@@ -520,3 +520,70 @@ I learnt how to add values to a list and strengthened my understanding in random
  3.Questions I have: I had a lot of questions(mostly about errors) but I had asked Dr.Ruben and he had help me.
 
 
+CLASS NO.10.
+1.What did we do?
+We add a infected individual in the beginning and a function so that if other individuals get to close to that one infected individual, they will also get infected and turn from white to red.
+2.What did you learn?
+I learn how to create a defenition and later use it in other codes, how to use list and later apply it in loops and "if, else" statement.
+
+##Homework's coding for task of week 26##
+
+    x= [ ]
+    y= [ ]
+    h= [False, True] #False=> infected
+
+    def setup():
+        size(500,500)
+    
+    #Setting up the 10 random coordinates
+    for i in range(10):
+        x.append(random(0,500))
+        y.append(random(0,500))
+        h.append(True) #All healthy, h is health
+        
+    def distance(x1, x2, y1, y2):
+        a=(x1-x2)
+        b=(y1-y2)        
+        c= sqrt(a**2 + b**2)
+        return c
+
+
+
+    def draw():
+        global x, y
+        background(255)
+          #Drawing the individuals
+        for individuals in range(len(x)):
+            strokeWeight(2)
+            if h[individuals] == True:
+                fill(255)  #healthy
+            else:
+                fill(255,0,0)  #infected
+            
+        circle(x[individuals], y[individuals], 40)
+        #calulate the distance to each neighbors
+        for neighbors in range(len(x)):
+            if neighbors == individuals:
+                continue
+            d = distance(x[individuals], x[neighbors], y[individuals], y[neighbors])
+            if d < 40 and (h[neighbors] == False or h[individuals]==False):
+                #infection happens
+                h[individuals] = False
+                h[neighbors] = False
+            
+        
+    for m in range(len(x)):
+        x[m]= x[m] + random(-10,10)
+        y[m]= y[m] + random(-10,10)    
+        if x[m] > 500:
+                x[m] = 500
+    
+        if y[m] > 500:
+                    y[m] = 500
+        if x[m] < 0:
+                    x[m] = 0
+        if y[m] < 0:
+                    y[m] = 0
+            
+    delay(100)
+3.Questions I have: No question.
