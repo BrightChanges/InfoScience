@@ -586,4 +586,5 @@ I learn how to create a defenition and later use it in other codes, how to use l
                     y[m] = 0
             
     delay(100)
+Result picture: https://github.com/BrightChanges/InfoScience_Kien-Le-Trung/blob/master/Task%2026.png
 3.Questions I have: No question.
