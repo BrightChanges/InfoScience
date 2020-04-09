@@ -588,3 +588,49 @@ I learn how to create a defenition and later use it in other codes, how to use l
     delay(100)
 Result picture: https://github.com/BrightChanges/InfoScience_Kien-Le-Trung/blob/master/Task%2026.png
 3.Questions I have: No question.
+4. Homeworks/3 task for week 29:
+Taks1-create a program that prints 100 bears:
+
+    bears = ['bears', 'bears' , 'bears']
+
+
+    def setup():
+        size (500, 500)
+        for i in range (98):
+            bears.append('bears')
+        bears[1] = 'bear'    
+        items = (0, 'bears')
+        index, letter = items
+        for index, letter in enumerate (bears):
+            print index, letter
+            
+ Task2-create a program that prints the years from 1900 to 2000:
+ 
+    years = [ ]
+
+    def setup():
+        size(500, 500)
+        for i in range(1900,2001):
+            print 'The year is',i
+
+Taks3-create a program that prints the conversion for Celsius to Fahrenheit 
+
+    from 0 C to 100 C:
+    from __future__ import division
+    cel = [ ]
+
+
+    def convert(nums):
+        nums2 = (nums*9/5)+32
+        return nums2
+
+    def setup():
+        size(500,500)
+        for nums in range(0,101):
+            cel.append(nums)
+        for nums in cel:
+            print nums, 'C are' , convert(nums), 'F'
+ 
+ Task4-Add a bar graph at the bottom right corner of the screen that counts the number of infected people and the number of healthy people+Add a counter for the number of times the simulation has run:
+   
+
