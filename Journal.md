@@ -603,6 +603,7 @@ Taks1-create a program that prints 100 bears:
         index, letter = items
         for index, letter in enumerate (bears):
             print index, letter
+   Result: https://github.com/BrightChanges/InfoScience_Kien-Le-Trung/blob/master/Screen%20Shot%200002-04-09%20at%209.17.05%20PM.png and 4 other pictures in my main file on Github.         
             
  Task2-create a program that prints the years from 1900 to 2000:
  
@@ -612,6 +613,7 @@ Taks1-create a program that prints 100 bears:
         size(500, 500)
         for i in range(1900,2001):
             print 'The year is',i
+  Result:https://github.com/BrightChanges/InfoScience_Kien-Le-Trung/blob/master/Screen%20Shot%200002-04-09%20at%209.19.06%20PM.png and 3 other pictures in my main file on Github.          
 
 Taks3-create a program that prints the conversion for Celsius to Fahrenheit 
 
@@ -630,6 +632,7 @@ Taks3-create a program that prints the conversion for Celsius to Fahrenheit
             cel.append(nums)
         for nums in cel:
             print nums, 'C are' , convert(nums), 'F'
+  Result:https://github.com/BrightChanges/InfoScience_Kien-Le-Trung/blob/master/Screen%20Shot%200002-04-09%20at%209.15.16%20PM.png and 3 other pictures in my main file on Github.         
  
  Task4-Add a bar graph at the bottom right corner of the screen that counts the number of infected people and the number of healthy people+Add a counter for the number of times the simulation has run:
  from __future__ import division
@@ -739,6 +742,7 @@ Taks3-create a program that prints the conversion for Celsius to Fahrenheit
             runs= runs+1
             setup()
             draw()
+Result: https://github.com/BrightChanges/InfoScience_Kien-Le-Trung/blob/master/Screen%20Shot%200002-04-10%20at%203.54.42%20PM.png
       
 
 
