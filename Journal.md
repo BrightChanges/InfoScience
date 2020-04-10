@@ -526,7 +526,7 @@ We add a infected individual in the beginning and a function so that if other in
 2.What did you learn?
 I learn how to create a defenition and later use it in other codes, how to use list and later apply it in loops and "if, else" statement.
 
-##Homework's coding for task of week 26##
+##Code of today##
 
     x= [ ]
     y= [ ]
@@ -588,6 +588,7 @@ I learn how to create a defenition and later use it in other codes, how to use l
     delay(100)
 Result picture: https://github.com/BrightChanges/InfoScience_Kien-Le-Trung/blob/master/Task%2026.png
 3.Questions I have: No question.
+
 4. Homeworks/3 task for week 29:
 Taks1-create a program that prints 100 bears:
 
