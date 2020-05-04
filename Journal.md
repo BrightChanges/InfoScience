@@ -885,8 +885,33 @@ I learn that if you put the same delay time or without the delay time, a Python 
 Result picture: https://github.com/BrightChanges/InfoScience_Kien-Le-Trung/blob/master/Screen%20Shot%200002-04-23%20at%208.48.33%20AM.png    
 3.Do you have any questions?
 Says days[ind] -= 1 and iteration = iteration + 1 are two commands, I wonder how much commands can a Python computer program can react to at the same time.
-      
 
+
+
+CLASS NO.12.
+1.What did we do?
+We decrypt a message given by Dr Ruben
+2.What did you learn?
+I learn what is cyptography, the use of of it, and how to do it. 
+
+##My cyptography solving video+decrypt program##
+Video: https://drive.google.com/file/d/16ixXAUkxeVNsbFr5H1JDuuLP6Fp_zOl2/view?usp=sharing
+Codes(Python):
+
+     from string import ascii_letters
+
+     s='F gtd bfx fy f hfwsnafq fsi bjsy yt f gttym bmjwj f rfs xfni yt ymj gtd, '
+     ns=''
+     for c in s:
+         if c in ascii_letters:
+             ns=ns+ascii_letters[(ascii_letters.index(c)+21)%len(ascii_letters)]
+         else:
+             ns+=c
+
+     print(ns)
+(the decrypt message will be run on the terminal)
+3.Do you have any questions? 
+No.
 
     
     
